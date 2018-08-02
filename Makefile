@@ -10,7 +10,7 @@ SRCS		=	$(S_PATH)main.cpp	\
 			$(S_PATH)Game.cpp	\
 			$(S_PATH)Ball.cpp	\
 			$(S_PATH)Paddle.cpp	\
-			$(S_PATH)Input.cpp
+
 OBJS		=	$(SRCS:.cpp=.o)
 
 NAME		=	pong
